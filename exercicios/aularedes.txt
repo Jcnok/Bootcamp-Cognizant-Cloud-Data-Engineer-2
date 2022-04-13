@@ -1,0 +1,149 @@
+
+1) Crie um arquivo de aularedes.txt
+
+ R: touch aularedes.txt
+
+2) Exiba o número de IP da rede no terminal
+
+ R: hostname -I
+
+3) Adicione a saída do comando anterior ao arquivo aula redes.txt
+
+ R: hostname -I >> aularedes.txt
+
+---Informações do ip da rede---
+
+172.29.79.13 
+
+4) Exiba o número de IP Loopback no terminal
+
+ R: hostname -i
+
+5) Adicione a saída do comando anterior ao arquivo aula redes.txt
+
+ R: hostname -i >> aularedes.txt
+
+---Informações de Loopback da rede---
+
+127.0.1.1
+
+6) Exiba Informações DNS sobre o host www.pudim.com.br
+
+7) Adicione a saída do comando anterior ao arquivo aula redes.txt
+
+ R: dig www.pudim.com.br >> aularedes.txt
+
+---Informações de DNS sobre o site www.pudim.com.br---
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> www.pudim.com.br
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60631
+;; flags: qr rd ad; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;www.pudim.com.br.		IN	A
+
+;; ANSWER SECTION:
+www.pudim.com.br.	0	IN	CNAME	pudim.com.br.
+pudim.com.br.		0	IN	A	54.207.20.104
+
+;; Query time: 0 msec
+;; SERVER: 172.29.64.1#53(172.29.64.1)
+;; WHEN: Tue Apr 12 21:46:37 -03 2022
+;; MSG SIZE  rcvd: 104
+
+
+8) Exiba Informações do Usuário logado na rede
+
+9) Adicione a saída do comando anterior ao arquivo aula redes.txt
+
+ R: w >> aularedes.txt
+
+---Informações do usuário logado na rede---
+
+ 21:46:37 up 1 day, 15:05,  0 users,  load average: 0.05, 0.01, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+
+10) Execute um teste no host www.pudim.com.br com 6 pacotes
+
+11) Adicione a saída do comando anterior ao arquivo aula redes.txt
+
+ R: ping www.pudim.com.br -w 6 >> aularedes.txt
+
+---Testando o host www.pudim.com.br com 6 pacotes---
+
+PING pudim.com.br (54.207.20.104) 56(84) bytes of data.
+
+--- pudim.com.br ping statistics ---
+6 packets transmitted, 0 received, 100% packet loss, time 5168ms
+
+
+12) Trace a Rota do seu computador até o host www.pudim.com.br
+
+13) Adicione a saída do comando anterior ao arquivo aula redes.txt
+
+ R: traceroute www.pudim.com.br >> aularedes.txt
+
+---Testando a rota do host www.pudim.com.br---
+
+traceroute to www.pudim.com.br (54.207.20.104), 30 hops max, 60 byte packets
+ 1  JCNOK_PC.mshome.net (172.29.64.1)  2.578 ms  0.478 ms  1.089 ms
+ 2  menuvivofibra (192.168.15.1)  2.547 ms  3.267 ms  5.428 ms
+ 3  * * *
+ 4  * 187-100-179-66.dsl.telesp.net.br (187.100.179.66)  18.784 ms 152-255-189-206.user.vivozap.com.br (152.255.189.206)  18.587 ms
+ 5  * 152-255-158-37.user.vivozap.com.br (152.255.158.37)  18.927 ms 152-255-158-27.user.vivozap.com.br (152.255.158.27)  18.911 ms
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  150.222.70.98 (150.222.70.98)  12.610 ms 150.222.70.110 (150.222.70.110)  12.340 ms 150.222.70.94 (150.222.70.94)  12.242 ms
+11  52.93.44.41 (52.93.44.41)  12.296 ms 52.93.44.121 (52.93.44.121)  20.756 ms 52.93.44.57 (52.93.44.57)  20.318 ms
+12  54.240.244.74 (54.240.244.74)  20.517 ms 54.240.244.64 (54.240.244.64)  20.612 ms 177.72.240.193 (177.72.240.193)  20.739 ms
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+14) Exiba Informações sobre Interfaces de Rede e Endereços IP no terminal
+
+15) Adicione a saída do comando anterior ao arquivo aula redes.txt
+
+ R: ifconfig >> aularedes.txt
+
+---Informações sobre a interface de rede e endereço IP---
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.29.79.13  netmask 255.255.240.0  broadcast 172.29.79.255
+        inet6 fe80::215:5dff:fe62:5922  prefixlen 64  scopeid 0x20<link>
+        ether 00:15:5d:62:59:22  txqueuelen 1000  (Ethernet)
+        RX packets 45847  bytes 41384093 (41.3 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 24152  bytes 2951628 (2.9 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 638291  bytes 202267161 (202.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 638291  bytes 202267161 (202.2 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+

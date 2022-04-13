@@ -1,0 +1,1000 @@
+  524  docker ps
+  525  exit
+  526  cd curso_henrylle/
+  527  ls
+  528  cd bia
+  529  ls
+  530  docker images
+  531  git --version
+  532  node --version
+  533  npm --version
+  534  docker --version
+  535  docker compose --version
+  536  aws --version
+  537  code
+  538  sudo apt-get update
+  539  curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+  540  sudo apt-get install -y nodejs
+  541  node -v
+  542  npn -v
+  543  npm -v
+  544  unzip
+  545  unzip -v
+  546  sudo apt install unzip
+  547  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  548  unzip awscliv2.zip
+  549  sudo ./aws/install
+  550  aws --version
+  551  aws s3 ls
+  552  cd curso_henrylle/
+  553  cd bia/
+  554  ls
+  555  chmod 400 bia-alternativo.pem 
+  556  docker images
+  557  aws --version
+  558  aws configure --profile
+  559  aws configure --profile bia
+  560  aws ecr describe-repositories --profile bia
+  561  exit
+  562  ./deploy.sh
+  563  ls
+  564  chmod +x build.sh 
+  565  ./build.sh
+  566  ssh -i "bia-alternativo.pem" ec2-user@ec2-44-200-136-112.compute-1.amazonaws.com
+  567  chmod 400 bia-alternativo.pem
+  568  ssh -i "bia-alternativo.pem" ec2-user@ec2-44-200-136-112.compute-1.amazonaws.com
+  569  ls
+  570  ssh -i "bia-alternativo.pem" ec2-user@ec2-44-200-136-112.compute-1.amazonaws.com
+  571  chmod 0555 bia-alternativo.pem
+  572  ssh -i "bia-alternativo.pem" ec2-user@ec2-44-200-136-112.compute-1.amazonaws.com
+  573  chmod +x bia-alternativo.pem
+  574  ssh -i "bia-alternativo.pem" ec2-user@ec2-44-200-136-112.compute-1.amazonaws.com
+  575  chmod +x deploy.sh
+  576  ./deploy.sh
+  577  chmod +x deploy.sh
+  578  chmod +x bia-alternativo.pem
+  579  chmod +x build.sh 
+  580  ./deploy.sh
+  581  docker images
+  582  chmod 400 bia-alternativo.pem 
+  583  aws configure --profile
+  584  aws configure --profile bia
+  585  aws ecr describe-repositories --profile bia
+  586  aws --version
+  587  aws s3 ls
+  588  ./rodar_app_local_unix.sh
+  589  ./deploy.sh
+  590  ssh -i "bia-alternativo.pem" ec2-user@ec2-44-200-136-112.compute-1.amazonaws.com
+  591  chmod 400 bia-alternativo.pem
+  592  ssh -i "bia-alternativo.pem" ec2-user@ec2-44-200-136-112.compute-1.amazonaws.com
+  593  chmod 400 bia-alternativo.pem
+  594  ssh -i "bia-alternativo.pem" ec2-user@ec2-44-200-136-112.compute-1.amazonaws.com
+  595  aws ecr describe-repositories --profile bia
+  596  ./build.sh
+  597  cd curso_henrylle/
+  598  cd bia
+  599  ls
+  600  ssh -i "bia-alternativo.pem" ec2-user@ec2-44-200-136-112.compute-1.amazonaws.com
+  601  chmod 400 bia-alternativo.pem
+  602  ssh -i "bia-alternativo.pem" ec2-user@ec2-44-200-136-112.compute-1.amazonaws.com
+  603  cd ..
+  604  code bia
+  605  cd bia
+  606  ./deploy.sh
+  607  ./rodar_app_local_unix.sh 
+  608  docker-compose exec server bash -c 'npx sequelize db:migrate'
+  609  ./rodar_app_local_unix.sh 
+  610  exit
+  611  cd curso_henrylle/
+  612  docker --version
+  613  docker-compose --version
+  614  node --version
+  615  npm --version
+  616  aws --version
+  617  aws -v
+  618  aws --v
+  619  conda bia
+  620  code bia
+  621  node --version
+  622  postres --version
+  623  postresql --version
+  624  ls
+  625  mkdir bia2
+  626  cd bia2
+  627  ls
+  628  gitclone https://github.com/henrylle/bia.git
+  629  git clone https://github.com/henrylle/bia.git
+  630  ls
+  631  code bia
+  632  ls
+  633  cd bia
+  634  ./rodar_app_local_unix.sh 
+  635  /home/jcn_ok/.npm/_logs/2022-03-17T22_32_10_935Z-debug.log
+  636  /home/jcn_ok/.npm/_logs/
+  637  .npm/_logs/
+  638  cd ..
+  639  ls
+  640  cd npm
+  641  cd .npm
+  642  cd .npm/_logs
+  643  ls
+  644  cd /
+  645  ls
+  646  cd .npm
+  647  ls
+  648  cd curso_henrylle/
+  649  cd bia2
+  650  cd bia
+  651  la
+  652  docker ps
+  653  docker stop b7fb4b78a9e4
+  654  docker ps
+  655  docker stop 322c93725cf1
+  656  ls
+  657  docker ps
+  658  docker stop 92d54eafcd2a
+  659  docker ps
+  660  ./rodar_app_local_unix.sh 
+  661  docker ps
+  662  docker-compose up -d
+  663  docker ps
+  664  docker-compose exec server bash -c 'npx sequelize db:migrate'
+  665  docker ps
+  666  aws ecr describe-repositories --profile bia
+  667  ls
+  668  chmod +x build.sh 
+  669  ./build.sh 
+  670  ssh -i "bia-alternativo.pem" ec2-user@ec2-54-197-4-20.compute-1.amazonaws.com
+  671  cd..
+  672  cd ..
+  673  cd bia
+  674  ssh -i "bia-alternativo.pem" ec2-user@ec2-54-197-4-20.compute-1.amazonaws.com
+  675  ls
+  676  chmod 400 bia-alternativo.pem
+  677  ssh -i "bia-alternativo.pem" ec2-user@ec2-54-197-4-20.compute-1.amazonaws.com
+  678  chmod 400 bia-alternativo.pem
+  679  ssh -i "bia-alternativo.pem" ec2-user@ec2-54-197-4-20.compute-1.amazonaws.com
+  680  sudo chmod 400 bia-alternativo.pem
+  681  ssh -i "bia-alternativo.pem" ec2-user@ec2-54-197-4-20.compute-1.amazonaws.com
+  682  ls -l
+  683  chmod -rwxrwxrwx bia-alternativo.pem 
+  684  ls -l
+  685  ssh -i "bia-alternativo.pem" ec2-user@ec2-54-197-4-20.compute-1.amazonaws.com
+  686  chmod 0555 bia-alternativo.pem 
+  687  ssh -i "bia-alternativo.pem" ec2-user@ec2-54-197-4-20.compute-1.amazonaws.com
+  688  sudo chmod 400 bia-alternativo.pem
+  689  ls -l
+  690  chmod -x bia-alternativo.pem 
+  691  ls -l
+  692  sudo chmod -x bia-alternativo.pem 
+  693  ls -l
+  694  sudo chmod 400 bia-alternativo.pem
+  695  ls -l
+  696  cd ..
+  697  cd bia2
+  698  cd bia
+  699  ssh -i "bia-alternativo.pem" ec2-user@ec2-54-197-4-20.compute-1.amazonaws.com
+  700  ssh -i "bia-alternativo.pem" ec2-user@ec2-34-236-242-135.compute-1.amazonaws.com
+  701  chmod 0000 bia-alternativo.pem 
+  702  ls -l
+  703  sudo chmod 0000 bia-alternativo.pem 
+  704  ls -s
+  705  ls -l
+  706  chmod ug=rw bia-alternativo.pem 
+  707  ls -l
+  708  ssh -i "bia-alternativo.pem" ec2-user@ec2-34-236-242-135.compute-1.amazonaws.com
+  709  chmod ug=rr bia-alternativo.pem 
+  710  ls -l
+  711  chmod ug=r- bia-alternativo.pem 
+  712  ls -l
+  713  chmod ug=r bia-alternativo.pem 
+  714  ls -l
+  715  cd ..
+  716  cd bia
+  717  ls
+  718  la
+  719  ssh -i "bia-alternativo.pem" ec2-user@ec2-54-197-4-20.compute-1.amazonaws.com
+  720  chmod +x bia-alternativo.pem 
+  721  cd curso_henrylle/bia2/ conda bia
+  722  cd curso_henrylle/bia2/
+  723  conda bia
+  724  code bia
+  725  npx sequelize db:migrate
+  726  docker ps
+  727  docker stop *
+  728  docker stop all
+  729  docker stop .
+  730  docker stop 322c93725cf1
+  731  docker stop b7fb4b78a9e4
+  732  docker ps
+  733  docker-compose up -d
+  734  cd bia
+  735  docker-compose up -d
+  736  docker-compose exec server bash -c 'npx sequelize db:migrate'
+  737  docker ps
+  738  aws ecr describe-repositories --profile bia
+  739  ./build.sh 
+  740  docker-compose up -d
+  741  docker-compose exec server bash -c 'npx sequelize db:migrate'
+  742  ./build.sh 
+  743  docker push 331816317886.dkr.ecr.us-east-1.amazonaws.com/bia:latest
+  744  cls
+  745  clear
+  746  chmod +x build.sh 
+  747  ./build.sh 
+  748  ssh -i "bia-alternativo.pem" ec2-user@ec2-34-236-242-135.compute-1.amazonaws.com
+  749  chmod +x deploy.sh 
+  750  ./deploy.sh 
+  751  '
+  752  exit
+  753  docker-compose up -d
+  754  docker ps
+  755  docker stop 018aaf34fa21
+  756  docker stop 92d54eafcd2a
+  757  docker ps
+  758  docker-compose up -d
+  759  docker-compose exec server bash -c 'npx sequelize db:migrate'
+  760  docker ps
+  761  aws configure --profile bia
+  762  aws ecr describe-repositories --profile bia
+  763  hmod
+  764  clear
+  765  ./check_disponibilidade.sh 
+  766  exit
+  767  ./deploy.sh 
+  768  xit
+  769  exit
+  770  ./deploy.sh 
+  771  cd curso_henrylle/bia2/ code bia
+  772  cd curso_henrylle/bia2/ 
+  773  code bia
+  774  cd curso_henrylle/
+  775  cd bia2
+  776  cd bia
+  777  ./deploy.sh 
+  778  source /mnt/c/Users/jcnok/Documents/Projetos_Jupyter/Stack_curso/koalas/Stack-Lab-main/Stack-Lab-main/koalas_env/bin/activate
+  779  source koalas_env/bin/activate
+  780  run app.py
+  781  streamlit run app.py
+  782  ls
+  783  cd C:\Users\jcnok\Documents\Projetos_Jupyter\Stack_curso\koalas\Stack-Lab-main\Stack-Lab-main
+  784  cd \Documents\Projetos_Jupyter\Stack_curso\koalas\Stack-Lab-main\Stack-Lab-main
+  785  cd \Documents\Projetos_Jupyter\Stack_curso\koalas\Stack-Lab-main\Stack-Lab-mainls
+  786  cd \Documents\Projetos_Jupyter\Stack_curso\koalas\Stack-Lab-main
+  787  cd \Documentes
+  788  cd \Documents
+  789  cd ./Projetos_Jupyter/Stack_curso/koalas/Stack-Lab-main/
+  790  ls
+  791  cd ./Stack-Lab-main/
+  792  ls
+  793  cd ..
+  794  code Stack-Lab-main/
+  795  ls
+  796  cd ls
+  797  dir
+  798  cd .Meus\ Documentos
+  799  cd .Documentos
+  800  cd d
+  801  dir D*
+  802  cd Projetos_Jupyter
+  803  cd .Projetos_Jupyter
+  804  cd ./Projetos_Jupyter
+  805  cd /Projetos_Jupyter
+  806  cd C:\Users\jcnok\Documents\Projetos_Jupyter\Stack_curso\koalas
+  807  cd..
+  808  cd /
+  809  cd C:\Users\jcnok\Documents\Projetos_Jupyter\Stack_curso\koalas
+  810  cd ./C:\Users\jcnok\Documents\Projetos_Jupyter\Stack_curso\koalas
+  811  cd .\Users\jcnok\Documents\Projetos_Jupyter\Stack_curso\koalas
+  812  cd Users\jcnok\Documents\Projetos_Jupyter\Stack_curso\koalas
+  813  exit
+  814  source koalas_env/bin/activate
+  815  ls
+  816  cd Stack-Lab-main/
+  817  source koalas_env/bin/activate
+  818  cd..
+  819  cd ..
+  820  ls
+  821  cd ranking-main/
+  822  ls
+  823  streamlit run ranking.py
+  824  cd Users\jcnok\Documents\Projetos_Jupyter\Stack_curso\koalas
+  825  cd Documents\Projetos_Jupyter\Stack_curso\koalas
+  826  cd .\Documents\Projetos_Jupyter\Stack_curso\koalas
+  827  cd \Documents\Projetos_Jupyter\Stack_curso\koalas
+  828  cd \Projetos_Jupyter\Stack_curso\koalas
+  829  cd \Documents
+  830  cd \Projetos_Jupyter\
+  831  cd \Stack_curso\koalas
+  832  cd \Stack_curso\
+  833  cd \koalas
+  834  ls
+  835  code Stack-Lab-main/
+  836  ls
+  837  cd Stack-Lab-main/
+  838  ls
+  839  cd koalas_env/
+  840  ls
+  841  cd ..
+  842  source ./koalas_env/bin/activated
+  843  source ./koalas_env/bin/activate
+  844  clear
+  845  streamlit run app.py
+  846  pip install pycaret
+  847  streamlit run app.py
+  848  source /koalas_env/bin/activate
+  849  ls
+  850  cd ./Stack-Lab-main/
+  851  source ./koalas_env/bin/activate
+  852  pip list
+  853  pip install pycaret
+  854  import pandas 
+  855  pip list streamlit
+  856  cd Documents
+  857  ls
+  858  cd Projetos_Jupyter/
+  859  ls
+  860  cd Stack_curso/
+  861  cd koalas/
+  862  ls
+  863  code Stack-Lab-main/
+  864  python -m venv ds1_env
+  865  python3 -m venv ds1_env
+  866  conda
+  867  venv
+  868  python -version
+  869  cd..
+  870  cd .
+  871  cd ..
+  872  python --version
+  873  python
+  874  python --version
+  875  source ./ds1_env/bin/actvate
+  876  source ./ds1_env/bin/activate
+  877  python3 -m venv ds1_env
+  878  apt install python3.8-venv
+  879  cd ..
+  880  deltree ds1
+  881  rmdir -d ds1
+  882  rm -r ds1
+  883  list
+  884  conda
+  885  python --v
+  886  venv -version
+  887  pip -v
+  888  code ds1
+  889  ls
+  890  delete ds1
+  891  deltree ds1
+  892  ls
+  893  mkdel ./ds1
+  894  rmdir ds1
+  895  rmdir ds1 /s/q
+  896  ls
+  897  rmdir ds1 
+  898  rmdir ds1 /s/q
+  899  rmdir ds1 /S/Q
+  900  rmdir ds1 /S
+  901  rmdir ds1 /s
+  902  rmdir ds1
+  903  rm ds1
+  904  ls
+  905  cd ./Documents/
+  906  cd ./ds1/
+  907  python -m ds_env
+  908  python -m venv ds_env
+  909  pip install python
+  910  cd ./Documents
+  911  ls
+  912  cd ./Projetos_Jupyter/
+  913  cd ./Stack_curso/
+  914  cd ./koalas/
+  915  ls
+  916  cd ./Stack-Lab-main/
+  917  ls
+  918  pip install virtualenv
+  919  virtualenv -p python3 venv_app
+  920  source ./venv_app/bin/activate
+  921  pip install streamlit
+  922  pip freeze > requirements.txt
+  923  pip install pycaret
+  924  pip freeze > requirements.txt
+  925  pip install PIL
+  926  apt-get install python-imaging
+  927  pip install pillow
+  928  streamlit run app.py
+  929  pip install numpy==1.20
+  930  streamlit run app.py
+  931  prep_pipe
+  932  pip isntall pycaret==2.3.1
+  933  pip install pycaret==2.3.1
+  934  streamlit run app.py
+  935  ls
+  936  git clone https://github.com/tylerjrichards/Getting-Started-with-Streamlit-for-Data-Science.git
+  937  ls
+  938  cd ./Getting-Started-with-Streamlit-for-Data-Science/
+  939  ls
+  940  cd ./clt_app/
+  941  ls
+  942  cd ..
+  943  ls
+  944  cd ./components_example/
+  945  ls
+  946  streamlit run penguin_animated.py 
+  947  code
+  948  cd ..
+  949  code components_example/
+  950  exit
+  951  source ./venv_streamlit/bin/deactivate
+  952  ls
+  953  cd ./venv_streamlit/bin
+  954  ls
+  955  cd ..
+  956  ls
+  957  cd ..
+  958  deactivate 
+  959  exit
+  960  source /mnt/c/Users/jcnok/app_ds/venv_app/bin/activate
+  961  cd ..
+  962  ls
+  963  virtualenv -p python3 venv_streamlit
+  964  source ./venv_streamlit/bin/acitivate
+  965  source ./venv_streamlit/bin/activate
+  966  pip install -r requirements.txt 
+  967  ls
+  968  cd components_example/
+  969  ls
+  970  streamlit run penguin_animated.py 
+  971  cd ..
+  972  ls
+  973  cd penguin_app/
+  974  ls
+  975  streamlit run penguins.py 
+  976  cd ..
+  977  ls
+  978  cd plotting_app/
+  979  ls
+  980  streamlit run plot_demo.py 
+  981  cd..
+  982  cd ..
+  983  ls
+  984  cd components_example/
+  985  ls
+  986  streamlit run tree_animated.py 
+  987  cd ..
+  988  ls
+  989  cd job_application_example/
+  990  ls
+  991  streamlit run job_streamlit.py 
+  992  cd ..
+  993  ls
+  994  cd pretty_trees/
+  995  ls
+  996  streamlit run pretty_trees.py 
+  997  cd ..
+  998  ls
+  999  cd random_survey_app/
+ 1000  ls
+ 1001  streamlit run app.py 
+ 1002  cd ..
+ 1003  ls
+ 1004  cd streamlit_goodreads_book/
+ 1005  ls
+ 1006  streamlit run goodreads_app.py 
+ 1007  cd ..
+ 1008  ls
+ 1009  exit
+ 1010  deactivate
+ 1011  exit
+ 1012  quit
+ 1013  cd ./app_ds/
+ 1014  ls
+ 1015  cd turnover
+ 1016  ls
+ 1017  source ./venv_app/bin/activate
+ 1018  cd ..
+ 1019  source ./venv_app/bin/activate
+ 1020  cd tur
+ 1021  cd turnover/
+ 1022  ls
+ 1023  cd ..
+ 1024  ls
+ 1025  cd ..
+ 1026  code app_ds
+ 1027  source venv_app/bin/activate
+ 1028  cd turnover/
+ 1029  streamlit run app.py
+ 1030  cd ..
+ 1031  streamlit run app.py
+ 1032  cd turnover/
+ 1033  streamlit run app.py
+ 1034  pip install streamlit_lottie
+ 1035  streamlit run app.py
+ 1036  source /mnt/c/Users/jcnok/app_ds/venv_app/bin/activate
+ 1037  streamlit run app.py
+ 1038  cd turnover/
+ 1039  streamlit run app.py
+ 1040  pipreqs
+ 1041  pipreqs >
+ 1042  deactivate
+ 1043  cd ..
+ 1044  ls
+ 1045  cd ..
+ 1046  ls
+ 1047  cd app_ds/
+ 1048  ls
+ 1049  cd Getting-Started-with-Streamlit-for-Data-Science/
+ 1050  source venv_streamlit/bin/activate
+ 1051  cd ..
+ 1052  ls
+ 1053  cd tur
+ 1054  cd turn
+ 1055  cd turnover/
+ 1056  ls
+ 1057  streamlit run app.py
+ 1058  cd ..
+ 1059  mkdir app_ds
+ 1060  del app_ds
+ 1061  ls
+ 1062  rd app_ds
+ 1063  deltree app_ds
+ 1064  mkdir venv_app
+ 1065  virtualenv -p python3 venv_app
+ 1066  deactivate
+ 1067  sourc venv_app/bin/activate
+ 1068  source venv_app/bin/activate
+ 1069  ls
+ 1070  cd turnover/
+ 1071  ls
+ 1072  pip intall -r requirements.txt
+ 1073  pip install -r requirements.txt
+ 1074  cd ..
+ 1075  pip install -r requirements.txt
+ 1076  ls
+ 1077  cd ..
+ 1078  ls
+ 1079  cd app_ds/
+ 1080  ls
+ 1081  cd Getting-Started-with-Streamlit-for-Data-Science/
+ 1082  ls
+ 1083  pip install -r requirements.txt 
+ 1084  pip install pycaretpycaret==2.3.9
+ 1085  pip install pycaretpycaret
+ 1086  cd ..
+ 1087  cd turnover/
+ 1088  streamlit run app.py
+ 1089  pip install pycaret
+ 1090  streamlit run app.py
+ 1091  pip install numpy==1.20
+ 1092  pip install scikit-learn==1.0.0
+ 1093  streamlit run app.py
+ 1094  pip install pycaret==2.3.8
+ 1095  streamlit run app.py
+ 1096  pip install pandas==1.4.1
+ 1097  streamlit run app.py
+ 1098  pip install pycaret==2.3.1
+ 1099  streamlit run app.py
+ 1100  git init
+ 1101  deactivate
+ 1102  exit
+ 1103  quit
+ 1104  source /mnt/c/Users/jcnok/app_ds/venv_app/bin/activate
+ 1105  sudo snap install heroku --classic
+ 1106  heroku login
+ 1107  cd app_ds/
+ 1108  ls
+ 1109  cd tur
+ 1110  cd turnover/
+ 1111  touch streamlit_setup.sh
+ 1112  touch Procfile
+ 1113  git add .
+ 1114  git commit -m 'add heroku files'
+ 1115  git push
+ 1116  touch runtime.txt
+ 1117  source ./venv_app/bin/activate
+ 1118  git config --global user.name "Julio OKuda"
+ 1119  git config --global user.email julio.okuda@gmail.com
+ 1120  cd turnover/
+ 1121  git init
+ 1122  git add .
+ 1123  git commit -m 'Primeiro commit do respositório'
+ 1124  git branch -M main
+ 1125  git remote add origin https://github.com/Jcnok/Turnover.git
+ 1126  git push -u origin main
+ 1127  git remote add origin https://github.com/Jcnok/Turnover.git
+ 1128  git push -u origin main
+ 1129  git initgit config --global user.name "Julio Okuda"
+ 1130  git config --global user.name "Julio Okuda"
+ 1131  git config --global user.email julio.okuda@gmail.com
+ 1132  git init
+ 1133  git add .
+ 1134  git commit -m 'Primeiro commit do repositório'
+ 1135  git comit -m 'Primeiro commit do repositório'
+ 1136  git commit -m 'Primeiro commit do repositório'
+ 1137  git banch -M main
+ 1138  git remote add origin https://github.com/Jcnok/Turnover.git
+ 1139  git push -u origin main
+ 1140  git push
+ 1141  git push -u
+ 1142  echo "# turnover" >> README.md
+ 1143  git init
+ 1144  git add README.md
+ 1145  git commit -m "first commit"
+ 1146  git branch -M main
+ 1147  git remote add origin https://github.com/Jcnok/turnover.git
+ 1148  git push -u origin main
+ 1149  pipreqs
+ 1150  pip install pipreqs
+ 1151  pipreqs
+ 1152  git add requirements.txt 
+ 1153  git commit -m 'envio do arquivo requirements.txt'
+ 1154  git push
+ 1155  git add requirements.txt 
+ 1156  git commit -m 'envio do requirements.txt atualizado'
+ 1157  git push
+ 1158  git push -u origin main
+ 1159  git commit -m "atualização v1.0"
+ 1160  git push -u origin main
+ 1161  git push
+ 1162  git commit -m "atualização v1.0"
+ 1163  git add app.py
+ 1164  git commit -m 'atualização v1.0'
+ 1165  git push
+ 1166  streamlit run app.py
+ 1167  python --version
+ 1168  git add app.py
+ 1169  git commit -m 'atualização v1.01'
+ 1170  git push
+ 1171  git add app.py
+ 1172  git commit -m 'atualização v1.01'
+ 1173  git push
+ 1174  streamlit run app.py
+ 1175  git add dados_preditos.csv
+ 1176  git commit -m 'dados_preditos.csv'
+ 1177  git push
+ 1178  git add app.py
+ 1179  git commit 'app.py inclusão do botão para donwload'
+ 1180  git push
+ 1181  git commit -m 'app.py inclusão do botão para donwload'
+ 1182  git push
+ 1183  git add app.py
+ 1184  git commit -m 'app.py inclusão do menu BI com a predição do modelo'
+ 1185  git push
+ 1186  git add app.py
+ 1187  git commit -m 'app.py atualização do formato para donwload'
+ 1188  git push
+ 1189  git add app.py
+ 1190  git commit -m 'app.py atualização do formato para donwload'
+ 1191  git push
+ 1192  git add app.py
+ 1193  git commit -m 'app.py correção ortográfica'
+ 1194  git push
+ 1195  git add app.py
+ 1196  git commit -m 'app.py correção ortográfica'
+ 1197  git add app.py
+ 1198  git commit -m 'app.py correção ortográfica'
+ 1199  git push
+ 1200  git add app.py
+ 1201  git commit -m 'app.py correção ortográfica'
+ 1202  git push
+ 1203  sudo apt-get install python-dev
+ 1204  sudo snap install heroku --classic
+ 1205  streamlit run app.py
+ 1206  pip install -r requirements.txt 
+ 1207  streamlit run app.py
+ 1208  git add requirements.txt 
+ 1209  git commit -m 'atualização requirements'
+ 1210  git push
+ 1211  python --version
+ 1212  streamlit run app.py
+ 1213  stramlit --version
+ 1214  streamlit --version
+ 1215  pandas --version
+ 1216  git add requirements.txt 
+ 1217  git commit -m 'atualização requirements'
+ 1218  git push
+ 1219  git add requirements.txt 
+ 1220  git commit -m 'atualização requirements'
+ 1221  git push
+ 1222  git add requirements.txt 
+ 1223  git commit -m 'atualização requirements'
+ 1224  git push
+ 1225  git add requirements.txt 
+ 1226  git commit -m 'atualização requirements'
+ 1227  git push
+ 1228  git add requirements.txt 
+ 1229  git commit -m 'atualização requirements'
+ 1230  git push
+ 1231  git add runtime.txt 
+ 1232  git commit -m 'add runtime.txt'
+ 1233  git push
+ 1234  git add runtime.txt 
+ 1235  git commit -m 'add runtime.txt'
+ 1236  git push
+ 1237  cd ..
+ 1238  cd ./Getting-Started-with-Streamlit-for-Data-Science/
+ 1239  cd job_application_example/
+ 1240  streamlit run job_streamlit.py 
+ 1241  source /mnt/c/Users/jcnok/app_ds/venv_app/bin/activate
+ 1242  git -version
+ 1243  git --version
+ 1244  sudo snap install --classic heroku
+ 1245  pip install --classic heroku
+ 1246  sudo snap install --classic heroku
+ 1247  deactivate
+ 1248  source ./venv_app/bin/activate
+ 1249  sudo snap install heroku --classic
+ 1250  deactivate
+ 1251  sudo snap install heroku --classic
+ 1252  herouk login
+ 1253  heroku login
+ 1254  cd ./venv_app/bin/activate
+ 1255  source ./venv_app/bin/activate
+ 1256  sudo apt get heroku --classit
+ 1257  sudo apt get heroku --classic
+ 1258  apt get heroku
+ 1259  pip install heroku --classic
+ 1260  pip install heroku
+ 1261  heroku login
+ 1262  heroku
+ 1263  heroku --version
+ 1264  help heroku
+ 1265  heroku config
+ 1266  heroku help
+ 1267  sudo snap install heroku -classic
+ 1268  sudo snap install heroku --classic
+ 1269  snap --version
+ 1270  sudo snap install heroku --classic ./venv_app/
+ 1271  sudo su
+ 1272  sudo dnf install snapd
+ 1273  sudo ln -s /var/lib/snapd/snap /snap
+ 1274  sudo snap install heroku --classic
+ 1275  apt update
+ 1276  sudo apt update
+ 1277  usdo apt install snapd
+ 1278  sudo apt install snapd
+ 1279  sudo snap install heroku --classic
+ 1280  sudo su
+ 1281  git clone git@github.com:jcnok1/jcnok1.github.io.git
+ 1282  git inint
+ 1283  git init
+ 1284  git comit -m 'firs commit'
+ 1285  git commit -m 'first commit'
+ 1286  git branch -M main
+ 1287  git remote add orgit remote add origin https://github.com/jcnok1/jcnok1.git
+ 1288  git remote add origin https://github.com/jcnok1/jcnok1.git
+ 1289  git push -u origin main
+ 1290  git remote add origin https://github.com/jcnok1/jcnok1.git
+ 1291  git branch -M main
+ 1292  git push -u origin main
+ 1293  echo "# jcnok1" >> README.md
+ 1294  git init
+ 1295  git add README.md
+ 1296  git commit -m "first commit"
+ 1297  git branch -M main
+ 1298  git remote add origin https://github.com/jcnok1/jcnok1.git
+ 1299  git push -u origin main
+ 1300  git@github.com:jcnok1/jcnok1.git
+ 1301  git clone git@github.com:jcnok1/jcnok1.git
+ 1302  git remote set-url origin https://github.com/jcnok1/jcnok1.git
+ 1303  git clone git@github.com:jcnok1/jcnok1.git
+ 1304  eval "$(ssh-agent -s)"
+ 1305  ssh-add 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
+ 1306  ssh-add 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 /root/.ssh/id_rsa.pub
+ 1307  sudo ssh-add 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 /root/.ssh/id_rsa.pub
+ 1308  ssh-keygen -t rsa
+ 1309  git clone git@github.com:jcnok1/jcnok1.git
+ 1310  git remote set-url origin https://github.com/jcnok1/jcnok1.git
+ 1311  git remote add origin https://github.com/jcnok1/jcnok1.git
+ 1312  git clone git@github.com:jcnok1/jcnok1.git
+ 1313  eval "$(ssh-agent -s)"
+ 1314  git clone git@github.com:jcnok1/jcnok1.git
+ 1315  ssh-agent
+ 1316  git clone https://github.com/jcnok1/jcnok1.git
+ 1317  cd jcnok1.github.io
+ 1318  echo "Bem vindo à minha primeira página!" > index.html
+ 1319  git add index.html
+ 1320  git commit -m 'add de first webpage'
+ 1321  git push -u origin master
+ 1322  git push
+ 1323  git push -u origin main
+ 1324  cd ..
+ 1325  mkdir venv_gitpages
+ 1326  virtualenv -p python3 venv_gitpages/
+ 1327  source ./venv_gitpages/bin/activate
+ 1328  git clone git@github.com:jcnok1/jcnok1.github.io.git
+ 1329  git clone https://github.com/jcnok1/jcnok1.git
+ 1330  ls
+ 1331  cd jconk1
+ 1332  ls
+ 1333  cd ./jcnok1/
+ 1334  ls
+ 1335  echo 'Welcome to my first page!' > index.html
+ 1336  git add index.html
+ 1337  git commit -m 'Add the first page'
+ 1338  git push -u origin main
+ 1339  git clone https://github.com/jcnok1/jcnok1.wiki.git
+ 1340  cd .cnok1
+ 1341  cd .
+ 1342  cd ..
+ 1343  code jcnok1/
+ 1344  gollum
+ 1345  gollum --version
+ 1346  gollum_login_username: jcnok1
+ 1347  sudo apt-get install ruby ruby-dev make zlib1g-dev libicu-dev build-essential git cmake libssl-dev
+ 1348  cd ..
+ 1349  souce ./venv_gitpages/
+ 1350  souce ./venv_gitpages/bin/activate
+ 1351  source ./venv_gitpages/bin/activate
+ 1352  sudo apt-get install ruby ruby-dev make zlib1g-dev libicu-dev build-essential git cmake libssl-dev
+ 1353  cd jcnok1/
+ 1354  cd jcnok1.wiki/
+ 1355  gollum
+ 1356  gem install gollum
+ 1357  sudo gem install gollum
+ 1358  gollum
+ 1359  gollum_login_username: jcnok1
+ 1360  gollum_login_username
+ 1361  sudo apt-get install ruby ruby-dev make zlib1g-dev libicu-dev build-essential git cmake libssl-dev
+ 1362  sudo gem install gollum
+ 1363  apt install gollum
+ 1364  sudo apt install gollum
+ 1365  sudo apt-get install gollum
+ 1366  ssh -T git@github.com
+ 1367  ssh-keygen -t ed25519 -C "jsll0425@gmail.com"
+ 1368  cat ~/.ssh/id_ed25519.pub
+ 1369  ssh -T git@github.com
+ 1370  cd ..
+ 1371  ls
+ 1372  cd ..
+ 1373  cd jcnok1/
+ 1374  git clone git@github.com:jcnok1/jcnok1.github.io.git
+ 1375  git clone https://github.com/jcnok1/jcnok1.git
+ 1376  echo 'Bem-vindo à minha primeira página!' > index.html
+ 1377  git add index.html
+ 1378  git commit -m 'Adicionar a primeira página da web'
+ 1379  git push -u mestre de origem
+ 1380  git push -u master from origin
+ 1381  git push -u origin master
+ 1382  git push -u origin main
+ 1383  git push -u origin 
+ 1384  cd jcnok1
+ 1385  ls
+ 1386  git push -u origin master
+ 1387  git add index.html
+ 1388  git commit -m 'Adicionar a primeira página da web'
+ 1389  git push -u origin master
+ 1390  git push -u origin main
+ 1391  git push 
+ 1392  cd ..
+ 1393  git push 
+ 1394  git push -u origin master
+ 1395  git add index.html
+ 1396  git commit -m 'Adicionar a primeira página da web'
+ 1397  cd jcnok1
+ 1398  git add index.html
+ 1399  echo 'Bem-vindo à minha primeira página!' > index.html
+ 1400  git add index.html
+ 1401  git commit -m 'Adicionar a primeira página da web'
+ 1402  git push -u origin master
+ 1403  git push 
+ 1404  ssh -T git@github.com
+ 1405  git remote set-url origin git@github.com:jcnok1/jcnok1.git
+ 1406  git push -u origin master
+ 1407  git push 
+ 1408  git checout -b gh-pages
+ 1409  git checkout -b gh-pages
+ 1410  echo 'Bem vindo a minha primeira pagina de projeto!' > index.html
+ 1411  git add index.html
+ 1412  git commit -m 'add pagina index.html'
+ 1413  git push origin gh-pages
+ 1414  git
+ 1415  git pull origin gh-pages
+ 1416  git push
+ 1417  git add index.html
+ 1418  git commit -m 'add pagina index.html'
+ 1419  echo "# jcnok1.github.io" >> README.md
+ 1420  git init
+ 1421  git add README.md
+ 1422  git commit -m "first commit"
+ 1423  git branch -M main
+ 1424  git remote add origin https://github.com/jcnok1/jcnok1.github.io.git
+ 1425  git push -u origin main
+ 1426  cd ..
+ 1427  ls
+ 1428  cd ..
+ 1429  echo "# jcnok1.github.io" >> README.md
+ 1430  git init
+ 1431  git add README.md
+ 1432  git commit -m "first commit"
+ 1433  git branch -M main
+ 1434  git remote add origin https://github.com/jcnok1/jcnok1.github.io.git
+ 1435  git push -u origin main
+ 1436  ls
+ 1437  cd ./app_ds/
+ 1438  ls
+ 1439  ssh-keygen -t ed25519 -C "jsll0425@gmail.com"
+ 1440  ssh -T git@github.com
+ 1441  git remote set-url origin git@github.com:jcnok1/jcnok1.github.io.git
+ 1442  echo "# jcnok1.github.io" >> README.md
+ 1443  git init
+ 1444  git add README.md
+ 1445  git commit -m "first commit"
+ 1446  git branch -M main
+ 1447  git remote add origin https://github.com/jcnok1/jcnok1.github.io.git
+ 1448  git push -u origin main
+ 1449  ls
+ 1450  cd gitpages/
+ 1451  ls
+ 1452  echo "# Bem vindos a minha primeira página" >> index.html
+ 1453  git init
+ 1454  git add index.html
+ 1455  git commit -m "first commit"
+ 1456  git branch -M main
+ 1457  git remote add origin https://github.com/jcnok1/jcnok1.github.io.git
+ 1458  git push -u origin main
+ 1459  cd ..
+ 1460  echo "# Bem vindos a minha primeira página" >> index.html
+ 1461  git init
+ 1462  git add index.html
+ 1463  git commit -m "first commit"
+ 1464  git branch -M main
+ 1465  git remote add origin https://github.com/jcnok1/jcnok1.github.io.git
+ 1466  git push -u origin main
+ 1467  git checkout -b gh-pages
+ 1468  echo 'Bem-vindo à minha primeira Página de Projeto!' > index.html
+ 1469  ls
+ 1470  git commit -m "atualização index.html"
+ 1471  git add index.html
+ 1472  git commit -m "atualização index.html"
+ 1473  git push origin gh-pages
+ 1474  git checkout -b gh-pages
+ 1475  git push
+ 1476  git push origin gh-pages
+ 1477  echo "# jcnok1.com" >> README.md
+ 1478  git init
+ 1479  git add README.md
+ 1480  git commit -m "first commit"
+ 1481  git branch -M main
+ 1482  git remote add origin https://github.com/jcnok1/jcnok1.com.git
+ 1483  git push -u origin main
+ 1484  ping https://jcnok1.github.io/
+ 1485  ping jcnok1.github.io
+ 1486  ping https://turnover-machine-learning.herokuapp.com/
+ 1487  ping turnover-machine-learning.herokuapp.com/
+ 1488  ping www.turnover-machine-learning.herokuapp.com/
+ 1489  ping http://turnover-machine-learning.herokuapp.com/
+ 1490  ping http://turnover-machine-learning.herokuapp.com
+ 1491  ping turnover-machine-learning.herokuapp.com
+ 1492  ls
+ 1493  cd readme_temaplates/
+ 1494  git clone https://github.com/iuricode/readme-template.git
+ 1495  ls
+ 1496  cd ..
+ 1497  code readme_temaplates/
+ 1498  ls
+ 1499  exit
+ 1500  git status
+ 1501  git add .
+ 1502  git commit -m 'criação do repositório referente ao bootcamp Cognizant Cloud Data Engineer #2'
+ 1503  git push
+ 1504  pwd
+ 1505  ls -l
+ 1506  man ls
+ 1507  ls --help
+ 1508* 
+ 1509  mkdir exercicios && exercicios
+ 1510  mkdir exercicios && cd exercicios
+ 1511  ls
+ 1512  cd exercicios
+ 1513  nano lista_nomes.txt
+ 1514  head lista_nomes.txt 
+ 1515  tail lista_nomes.txt 
+ 1516  grep julio lista_nomes.txt 
+ 1517  cal setembro 2020 > setembro.txt
+ 1518  cat setembro.txt 
+ 1519  ls
+ 1520  tail setembro.txt 
+ 1521  cal abril 2022 >> setembro.txt 
+ 1522  history
+ 1523  history > historico_comandos.txt
